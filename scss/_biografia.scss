@@ -1,0 +1,10 @@
+.section--base{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section__p--base{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}

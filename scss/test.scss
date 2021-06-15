@@ -1,0 +1,47 @@
+@import "_reset";
+@import "_main";
+@import "_header";
+@import "_biografia";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@each $icono in youtube, facebook, instagram, mail{
+    .#{$icono}-icon{
+        background-image: url(../fotos/#{$icono}.svg);
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        list-style-type: none;
+    }
+}
+
+.ul--base{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        li{
+            padding: 5px;
+        }
+}
+    /* Body */
+.styleBody{
+    /* background-image: url(../fotos/foto\ grupo\ 3674x513.jpg);
+    background-size: cover; */
+    background-color: cornsilk;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(143, 138, 138);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-transform: uppercase;
+}

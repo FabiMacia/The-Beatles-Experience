@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    /* Body */
+.styleBody{
+    /* background-image: url(../fotos/foto\ grupo\ 3674x513.jpg);
+    background-size: cover; */
+    background-color: cornsilk;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(143, 138, 138);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+/* Index */
+    /* Header */
+header#linearGradient{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+#linearGradient{
+    background-image: linear-gradient(to right, white, grey, black);
+}
+
+header img{
+    width: 10%;
+}
+
+.rotate:hover{
+	transform: rotateZ(-360deg);
+	transition: transform 1s;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#styleNav{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 12%;
+    padding: 10px;
+}
+
+#styleNav ul{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+#styleNav ul li{
+    padding: 30px;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+    /* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#styleFooter ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#styleFooter ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+/* Shows */
+/* nav{
+    display: flex;
+    width: 10vw;
+    margin: 6px;
+    padding: 10px;
+} */
+/* main{
+    display: flex;
+} */
+/* main div{
+    width: 12vw;
+    margin: auto;
+    display: inline;
+}
+article table{
+    display: inline-block;
+    margin-right: 60vw;
+}
+#styleTabla{
+    color: rgb(143, 138, 138);
+    font-weight: bold;
+    margin: auto;
+} */
+
+ /*Galería  */
+/* header{
+    padding: 10px;
+}
+
+.cajaPadre{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+
+div img{
+    width: 100%;
+} */
+
+/* @media only screen and (min-width:780px){
+    section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media only screen and (min-width:1060px){
+    section{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+} */
+/* Biografía */
+
+h1{
+    text-transform: uppercase;
+}
+.sectionParrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+section p{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
