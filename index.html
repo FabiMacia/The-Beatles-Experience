@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>The Beatles Experience</title>
-		<meta name="description" content="THE BEATLES EXPERIENCE, elegidos como la mejor banda Beatle de Latinoamerica 2014. El autentico sonido de Los Beatles">
-		<meta name="keywords" content="banda, tributo, beatles, musica">
-		<meta name="author" content="Fabiana Macia">
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<!-- My stylesheet -->
-		<link rel="stylesheet" href="css/main.css">
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Beatles Experience</title>
+	<meta name="description" content="Mira nuestra galeria de fotos con nuestros mejores momentos y vestuarios">
+	<meta name="keywords" content="fotos, musica, banda, beatles">
+	<meta name="author" content="Fabiana Macia">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!-- My stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Fresco lightbox -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="fresco-2.3.0/fresco-2.3.0/dist/js/fresco.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="fresco-2.3.0/fresco-2.3.0/dist/css/fresco.css">
+</head>
 <body class="styleBody">
 	<!-- Sección 1 -->
 	<header class="header--base">
 		<a href="index.html">
-		<img class="header__img--size header__img--rotate" src="fotos/logotipo.svg" alt="logo the beatles experience"></a>
+			<img class="header__img--size header__img--rotate" src="fotos/svg/logotipo.svg" alt="logo the beatles experience"></a>
 	</header>
 	<!-- Sección 2 -->
-	<main class="main--base">
+	<main class="main--base main__nav--base">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="shows.html">Shows</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +31,43 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			  	<div class="navbar-nav">
-					<a class="nav-link active" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
-					<a class="nav-link" href="videos.html">Videos</a>
+					<a class="nav-link active" href="videos.html">Videos<span class="sr-only">(current)</span></a>
 					<a class="nav-link" href="biografia.html">Biografía</a>
 					<a class="nav-link" href="contratacion.html">Contratación</a>
 			  	</div>
 			</div>
 		</nav>
-	</main>	  
-	<!-- Sección 3 -->
-	<footer class="fixed-bottom">
+		<div>
+			<a href="fotos/early beatles.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/early beatles.jpg" alt="integrantes posando sentados en traje">
+			</a>
+			<a href="fotos/foto grupo 1730x487.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/foto grupo 1730x487.jpg" alt="integrantes posando en traje">
+			</a>
+			<a href="fotos/foto grupo 2.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/foto grupo 2.jpg" alt="integrantes posando en traje con instrumentos">
+			</a>
+			<a href="fotos/foto grupo 3674x513.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/foto grupo 3674x513.jpg" alt="integrantes posando en traje blanco y negro">
+			</a>
+			<a href="fotos/individual george harrison.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/individual george harrison.jpg" alt="foto individual george harrison">
+			</a>
+			<a href="fotos/individual john lennon.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/individual john lennon.jpg" alt="foto individual john lennon">
+			</a>
+			<a href="fotos/individual paul mccartney.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/individual paul mccartney.jpg" alt="foto individual paul mccartney">
+			</a>
+			<a href="fotos/individual ringo starr.jpg" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/individual ringo starr.jpg" alt="foto individual ringo star">
+			</a>
+			<a href="fotos/portada 2019.png" class="fresco" data-fresco-group="TBE">
+				<img src="fotos/portada 2019.png" alt="integrantes posando en traje blanco y negro">
+			</a>
+		</div>
+	</main>
+	<footer>
 		<ul class="nav ul--base">
 			<li class="nav-item youtube-icon">
 				<a class="nav-link active" href="https://www.youtube.com/channel/UCAOBoVZN2hT5fe2noMPe4zA" target="_blank"></a>

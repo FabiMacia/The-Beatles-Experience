@@ -16,50 +16,59 @@
 	<!-- Sección 1 -->
 	<header class="header--base">
 		<a href="index.html">
-			<img class="header__img--size header__img--rotate" src="fotos/logotipo.svg" alt="logo the beatles experience">
+			<img class="header__img--size header__img--rotate" src="fotos/svg/logotipo.svg" alt="logo the beatles experience">
 		</a>
 	</header>
 	<!-- Sección 2 -->
-	<main class="main--base">
+	<main class="main--base main__nav--base">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="shows.html">Shows</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				  <div class="navbar-nav">
-					<a class="nav-link active" href="galeria.html">Galería <span class="sr-only">(current)</span></a>
-					<a class="nav-link" href="videos.html">Videos</a>
+			  	<div class="navbar-nav">
+					<a class="nav-link active" href="videos.html">Videos<span class="sr-only">(current)</span></a>
 					<a class="nav-link" href="biografia.html">Biografía</a>
 					<a class="nav-link" href="contratacion.html">Contratación</a>
-				  </div>
+			  	</div>
 			</div>
-		  </nav>
-		  <div>
+		</nav>
+		<div class="ul--base">
 			<h1>Próximas fechas</h1>
 		</div>
-		<article>
-			<table border="3px" cellpadding="20px" cellspacing="12px" id="styleTabla">
-				<tr>
-					<td>Cuando</td>
-					<td>Donde</td>
-					<td> <b></b>Disco tributo</td>
-				</tr>
-				<tr>
-					<td>21/05</td>
-					<td>Paseo La Plaza</td>
-					<td>
-						<ol>
-							<li>Help</li>
-							<li>Rubber Soul</li>
-							<li>Revolver</li>
-						</ol>
-					</td>
-				</tr>
-			</table>
-		</article>
-		<div>
-			<h2><a href="https://www.ticketek.com.ar/beatles-experience/centro-cultural-san-isidro?fbclid=IwAR3LmNSa-PF-W_pSpjDBxLiCujUh2e-sHfggeZNJLcylzu2Xj3yuBlOdm_o" target="_blank">Entradas</a></h2>
+		<table class="table">
+			<thead>
+			  <tr>
+				<th scope="col">#</th>
+				<th scope="col">Fecha</th>
+				<th scope="col">Lugar</th>
+				<th scope="col">Discografía</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<th scope="row">1</th>
+				<td>03/07</td>
+				<td>Paseo La Plaza</td>
+				<td>Help!</td>
+			  </tr>
+			  <tr>
+				<th scope="row">2</th>
+				<td>09/07</td>
+				<td>Centro Cultural Vicente Lopez</td>
+				<td>Yellow Submarine</td>
+			  </tr>
+			  <tr>
+				<th scope="row">3</th>
+				<td>18/07</td>
+				<td>Paseo La Plaza</td>
+				<td>Rubber Soul</td>
+			  </tr>
+			</tbody>
+		  </table>
+		<div class="ul--base">
+			<a href="https://www.ticketek.com.ar/beatles-experience/centro-cultural-san-isidro?fbclid=IwAR3LmNSa-PF-W_pSpjDBxLiCujUh2e-sHfggeZNJLcylzu2Xj3yuBlOdm_o" target="_blank" class="btn btn-warning btn-lg" tabindex="-1" role="button" aria-disabled="true">ENTRADAS AQUI</a>
 		</div>
 	</main>
 		<!-- Sección 3 -->

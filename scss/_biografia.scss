@@ -1,10 +1,21 @@
-.section--base{
+.cards {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.section__p--base{
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 400px;
     margin: 10px;
-    padding: 5px;
-    text-align: center;
-}
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: px;
+    width: 100%;
+    }

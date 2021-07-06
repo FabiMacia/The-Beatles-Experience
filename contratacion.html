@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contrataciónes</title>
+	<title>Contrataciones</title>
 	<meta name="description" content="Si queres contratarnos para tu proximo evento no dudes en contactarnos">
 	<meta name="keywords" content="banda, beatles, contrataciones, eventos">
 	<meta name="author" content="Fabiana Macia">
@@ -16,7 +16,7 @@
 	<!-- Sección 1 -->
 	<header class="header--base">
 		<a href="index.html">
-		<img class="header__img--size header__img--rotate" src="fotos/logotipo.svg" alt="logo the beatles experience"></a>
+		<img class="header__img--size header__img--rotate" src="fotos/svg/logotipo.svg" alt="logo the beatles experience"></a>
 	</header>
 	<!-- sección 2 -->
 	<main class="main--base main__nav--base">
@@ -27,47 +27,39 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			  	<div class="navbar-nav">
-					<a class="nav-link active" href="galeria.html">Galería<span class="sr-only">(current)</span></a>
-					<a class="nav-link" href="videos.html">Videos</a>
+					<a class="nav-link active" href="videos.html">Videos<span class="sr-only">(current)</span></a>
 					<a class="nav-link" href="biografia.html">Biografía</a>
 					<a class="nav-link" href="contratacion.html">Contratación</a>
 			  	</div>
 			</div>
 		</nav>
 		<!-- Sección 3 -->
-		<h3>Contactanos</h3>
+		<div class="ul--base">
+			<h3>Contactanos</h3>
+		</div>
 		<form action="#" method="post">
-			<fieldset>
-				<legend>Info de contacto</legend> <br>
+			<div>
+				<legend>Info de contacto</legend>
+			</div>
+			<div>
 				<label for="name">Nombre y Apellido:</label>	
-				<input type="text" name="Nombre y Apellido" placeholder="Juan Perez"> <br>
-		<br>
-		<label for="name">Email</label>	
-		<input type="email" name="email" placeholder="ejemplo@ejemplo.com"> <br>
-		<br>
-		<label for="name">Celular</label>
-		<input type="tel" name="tel" placeholder="11 01234567"> <br>
-		<br>
-		<label for="name">¿Nos conocías?</label>
-		<select name="meet">
-			<option value="Y">Si</option>
-			<option value="N">No</option>
-		</select> <br>
-		<br>
-		<label for="meet"> Si respondiste que sí, ¿cómo nos conociste?</label> <br>
-		<br>
-		<label for="referencia">Referencia amigo/familiar</label>
-		<input type="checkbox" name="referencia" value="Referencia"> <br>
-		<label for="redes">Redes sociales</label>
-		<input type="checkbox" name="redes" value="Redes"
-		> <br>
-		<label for="publicidad">Pubilicidad en la calle</label>
-			<input type="checkbox" name="publicidad" value="Publicidad"> <br>
-			<br>
-			<input type="reset" value="Cancelar">
-			<input type="submit" value="Enviar">
-		</fieldset>
-	</form>
+				<input type="text" name="Nombre y Apellido" placeholder="Juan Perez">
+			</div>
+			<div>
+				<label for="name">Email</label>	
+				<input type="email" name="email" placeholder="ejemplo@ejemplo.com">
+			</div>
+			<div>
+				<label for="name">Celular</label>
+				<input type="tel" name="tel" placeholder="11 01234567">
+			</div>
+			<div>
+				<textarea name="text" id=""
+				placeholder="Dejanos un mensaje" cols="30" rows="10"></textarea>
+			</div>
+			<button type="submit" class="btn btn-warning">Enviar</button>
+			<button type="reset" class="btn btn-secondary">Limpiar</button>
+		</form>
 	</main>
 	<!-- Sección 4 -->
 	<footer>
